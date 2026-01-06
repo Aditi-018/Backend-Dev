@@ -1,0 +1,2 @@
+Amazon, filpcart,google,microsoft,delottie
+ meesho,myntra 
