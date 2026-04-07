@@ -37,17 +37,11 @@ const studentSchema = new mongoose.Schema(
 // MODEL
 const Student = mongoose.model("Student", studentSchema);
 
-
-// ==========================
 // MIDDLEWARE
-// ==========================
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-
-// ==========================
 // ROUTES (CRUD)
-// ==========================
 
 // READ (HTML)
 app.get("/students", async (req, res) => {
