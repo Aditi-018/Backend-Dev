@@ -1,0 +1,20 @@
+{
+  "name": "backend-dev-3y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshita3103/Backend-Dev-3Y.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakshita3103/Backend-Dev-3Y/issues"
+  },
+  "homepage": "https://github.com/lakshita3103/Backend-Dev-3Y#readme"
+}

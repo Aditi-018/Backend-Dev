@@ -1,0 +1,35 @@
+<%- include("partials/header") %>
+
+<a href="/add-student">Add New Student</a>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Grade</th>
+        <th>Status</th>
+    </tr>
+
+    <% students.forEach(student => { %>
+        <tr>
+            <td><%= student.id %></td>
+            <td>
+                <a href="/students/<%= student.id %>">
+                    <%= student.name %>
+                </a>
+            </td>
+            <td><%= student.marks %></td>
+            <td><%= student.grade %></td>
+            <td>
+                <% if (student.marks >= 40) { %>
+                    Pass
+                <% } else { %>
+                    Fail
+                <% } %>
+            </td>
+        </tr>
+    <% }) %>
+</table>
+
+<%- include("partials/footer") %>
